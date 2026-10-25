@@ -1,0 +1,9 @@
+# Illustrative configuration only. No configuration loader is implemented.
+# No model paths, downloads, executable commands, or device support are supplied.
+[backend]
+backend = "ncm"
+device = "cpu"
+
+[device_policy]
+compute_dtype = "float32"
+postprocess_dtype = "float32"
