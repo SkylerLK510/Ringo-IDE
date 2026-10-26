@@ -1,1 +1,1 @@
-"""Ringo-IDE contracts and inert adapter stubs; no runtime is started on import."""
+"""Ringo-IDE reference scaffold; no runtime is started on import."""

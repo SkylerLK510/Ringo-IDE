@@ -5,10 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ringo-ide"
 version = "0.0.0"
-description = "Experimental local completion worker scaffolding for Ringo-IDE"
+description = "Local completion reference scaffold and NCM integration contracts for Ringo-IDE"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+ringo-ide = "ringo_ide.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
