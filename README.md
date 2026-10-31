@@ -12,6 +12,9 @@ the tests without a GPU, weights, API key, or runtime dependencies. The editor
 UI, asynchronous worker transport/scheduler, and real inference remain work to
 implement. This README is the entry point for joining that work.
 
+**About the name:** Ringo-IDE and the [Ringo harness](https://github.com/SkylerLK510/Ringo)
+are both named after Ringo, one of my three beloved cats.
+
 ## Start here
 
 1. Run the [quickstart](#quickstart) and inspect its request/result JSON.
